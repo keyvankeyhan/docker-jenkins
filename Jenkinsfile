@@ -10,6 +10,7 @@ pipeline {
         stage('Build from Jenkinsfile') {
             steps {
                 echo 'Build Application from Jenkinsfile'
+                sh './build.sh'
             }
         }
         stage('Test from Jenkinsfile') {
