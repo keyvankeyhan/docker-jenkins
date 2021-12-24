@@ -4,7 +4,7 @@ pipeline {
         stage('Download Jenkinsfile') {
             steps {
                 echo 'Get Jenkinsfile from GitHub'
-                echo GIT_CHECKOUT_DIR
+                echo "checkout dir = ${GIT_CHECKOUT_DIR}"
                 //git 'https://github.com/keyvankeyhan/cicd-test'
             }
         }
