@@ -1,2 +1,2 @@
-echo "This is a build script pulled by Jenkinsfile"
+echo "This is a Build script pulled by Jenkinsfile"
 date

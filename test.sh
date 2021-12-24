@@ -1,2 +1,2 @@
-echo "This is a test script pulled by Jenkinsfile"
+echo "This is a Test script pulled by Jenkinsfile"
 date
